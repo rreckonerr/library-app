@@ -5,6 +5,7 @@ export default Controller.extend({
 
 	emailAddress: '',
 	responseMessage: '',
+	headerMessage: 'Coming Soon',
 	
 	isValid: match('emailAddress', /^.+@.+\..+$/),
 	isDisabled: not('isValid'),
