@@ -8,7 +8,7 @@ module.exports = function(environment) {
     locationType: 'auto',
     
     firebase: {
-      apiKey: "AIzaSyAd-8RaL2aadFxVQVjXlVxiQDCgz4xBYQo",
+      apiKey: process.env.FIREBASE_DEV_KEY,
       authDomain: "library-app-579bf.firebaseapp.com",
       databaseURL: "https://library-app-579bf.firebaseio.com",
       projectId: "library-app-579bf",
